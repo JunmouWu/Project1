@@ -1,0 +1,4 @@
+2020.3.8
+task1和task2都存在无法进行内存泄漏检测的问题，鉴于我使用的是Windows系统，我的电脑上其实有安装Linux的虚拟机，但是非常卡。
+我就下了VLD进行检测，但是VLD只适用于VS Code，我的IDE是DEV C++，在网上找了一大圈也没找到合适的检测工具，我会继续搜寻，
+或者改用VS Code，同时我也在思考能不能把destroyTree( )和removeChildren( )这两个函数合并起来，先看task3的形式吧
